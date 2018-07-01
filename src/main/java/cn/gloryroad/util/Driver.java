@@ -1,7 +1,5 @@
 package cn.gloryroad.util;
 
-import org.openqa.selenium.chrome.ChromeDriver;
-
 public class Driver {
     public static void chromeDriver(){
         System.setProperty("webdriver.chrome.driver", "./tools/chromedriver.exe");

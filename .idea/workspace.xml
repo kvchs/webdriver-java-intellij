@@ -4,7 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/test/ProjectConfigTest.java" line="21" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dd7330f-1109-48fa-8b20-b554b1c27d6f" name="Default" comment="" />
+    <list default="true" id="6dd7330f-1109-48fa-8b20-b554b1c27d6f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gloryroad/testScript/TestSendMailWithAttachment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/gloryroad/util/WaitUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/gloryroad/util/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/gloryroad/util/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/gloryroad/util/KeyBoardUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/gloryroad/util/KeyBoardUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/gloryroad/util/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/gloryroad/util/Driver.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,20 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="KeyBoardUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/gloryroad/util/KeyBoardUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="54" column="38" lean-forward="true" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+            <state relative-caret-position="-875">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +56,8 @@
       <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/gloryroad/util/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="308">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#124#125#0" expanded="true" />
                 <element signature="e#161#162#0" expanded="true" />
@@ -69,11 +68,37 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="WaitUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/gloryroad/util/WaitUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSendMailWithAttachment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/gloryroad/testScript/TestSendMailWithAttachment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ProjectConfigTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/test/ProjectConfigTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="159">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#296#297#0" expanded="true" />
@@ -99,9 +124,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/utils/Driver.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/test/ProjectConfigTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/gloryroad/util/KeyBoardUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/gloryroad/util/Driver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/gloryroad/util/WaitUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/gloryroad/testScript/TestSendMailWithAttachment.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -149,7 +177,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -204,6 +232,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gloryroad" type="462c0819:PsiDirectoryNode" />
+              <item name="testScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdriver-java-intellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdriver-java-intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gloryroad" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -250,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TestSendMailWithAttachment">
     <configuration name="ProjectConfigTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.ProjectConfigTest" />
       <module name="webdriver-java-intellij" />
@@ -281,6 +318,35 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TestSendMailWithAttachment" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdriver-java-intellij" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.gloryroad.testScript.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="cn.gloryroad.testScript" />
+      <option name="MAIN_CLASS_NAME" value="cn.gloryroad.testScript.TestSendMailWithAttachment" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -303,8 +369,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.ProjectConfigTest" />
+      <item itemvalue="TestNG.TestSendMailWithAttachment" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSendMailWithAttachment" />
         <item itemvalue="Application.ProjectConfigTest" />
       </list>
     </recent_temporary>
@@ -319,7 +390,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530431072740</updated>
-      <workItem from="1530431078404" duration="11370000" />
+      <workItem from="1530431078404" duration="13575000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1530446912133</created>
@@ -331,8 +402,13 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestSendMailWithAttachment - 2018.07.01 at 20h 43m 20s.xml">
+      <configuration name="TestSendMailWithAttachment" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11370000" />
+    <option name="totallyTimeSpent" value="13575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -344,18 +420,18 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50226927" side_tool="true" visible="true" weight="0.330033" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50378215" side_tool="true" weight="0.32838285" />
       <window_info anchor="right" id="Maven Projects" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.3294893" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49621785" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Problems" sideWeight="0.49924356" weight="0.3294893" />
       <window_info anchor="right" id="Database" weight="0.32980332" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4977307" visible="true" weight="0.330033" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4977307" weight="0.330033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" />
@@ -387,7 +463,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/test/ProjectConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#296#297#0" expanded="true" />
@@ -398,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/gloryroad/util/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#124#125#0" expanded="true" />
             <element signature="e#161#162#0" expanded="true" />
@@ -409,17 +485,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/gloryroad/util/WaitUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/gloryroad/testScript/TestSendMailWithAttachment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="-88">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/gloryroad/util/KeyBoardUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="54" column="38" lean-forward="true" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+        <state relative-caret-position="-875">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
