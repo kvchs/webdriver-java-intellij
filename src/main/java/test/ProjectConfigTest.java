@@ -1,6 +1,7 @@
 package test;
 
 
+import cn.gloryroad.util.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,7 +22,7 @@ public class ProjectConfigTest {
 
     public static void testBaidu() {
        //System.setProperty("webdriver.chrome.driver", "E:\\selenium\\xtselenium\\src\\main\\resources\\chromedriver.exe");
-
+        Driver.chromeDriver();
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.baidu.com/");
 
