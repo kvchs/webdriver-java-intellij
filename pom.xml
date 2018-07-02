@@ -40,6 +40,13 @@
             <version>3.17</version>
         </dependency>
 
+        <!--http://search.maven.org/#artifactdetails%7Corg.lucee%7Cpoi-ooxml%7C3.15.0%7Cbundle-->
+        <dependency>
+            <groupId>org.lucee</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.15.0</version>
+        </dependency>
+
 
     </dependencies>
 
