@@ -23,4 +23,10 @@ public class WaitUtil {
         //调用ExpectedConditions 的presenceOfElementLocated方法判断页面元素是否出现
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpathExpression)));
     }
+
+    //显式等待页面元素出现的封装方法，参数为表示页面元素的By对象，此函数可以支持更多的定位方式
+    public static void waitWebElement(WebDriver driver, By by){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.presenceOfElementLocated(by));
+    }
 }
