@@ -6,7 +6,7 @@ public class Driver {
     }
 
     public static void firefoxDriver(){
-        System.setProperty("webdriver.gecko.driver", "./tools/deckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "./tools/geckodriver.exe");
     }
 
     public static void ieDriver(){

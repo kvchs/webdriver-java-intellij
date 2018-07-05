@@ -1,0 +1,686 @@
+Chrome浏览器实例已经声名
+浏览器访问地址: https://mail.126.com
+输入用户名： test
+输入密码
+单击登录按钮
+单击写信按钮
+添加附件
+关闭浏览器
+Firefox浏览器实例已经声名
+浏览器访问地址: https://mail.126.com
+关闭浏览器
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+Chrome浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+从Excel文件中读取到的关键字是: input_username
+从Excel文件中读取到的操作值是: test
+输入用户名： test
+从Excel文件中读取到的关键字是: input_password
+从Excel文件中读取到的操作值是: *******
+输入密码
+从Excel文件中读取到的关键字是: click_login
+从Excel文件中读取到的操作值是: 无
+单击登录按钮
+从Excel文件中读取到的关键字是: switch_to_default
+从Excel文件中读取到的操作值是: 
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: homepage.logoutlink
+从Excel文件中读取到的关键字是: click_writeLetterLink
+从Excel文件中读取到的操作值是: 无
+单击写信按钮
+从Excel文件中读取到的关键字是: WaitFor_Element1
+从Excel文件中读取到的操作值是: writemailpage.verifytitle
+从Excel文件中读取到的关键字是: input_recipients
+从Excel文件中读取到的操作值是: testman@126.com
+从Excel文件中读取到的关键字是: input_mailSubject
+从Excel文件中读取到的操作值是: 这是一封邮件的标题
+从Excel文件中读取到的关键字是: press_tab
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: paste_mailContent
+从Excel文件中读取到的操作值是: 这是邮件的正文
+从Excel文件中读取到的关键字是: click_addAttachment
+从Excel文件中读取到的操作值是: 无
+添加附件
+从Excel文件中读取到的关键字是: paste_uploadFileName
+从Excel文件中读取到的操作值是: D:\BugReport.txt
+从Excel文件中读取到的关键字是: press_enter
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: sleep
+从Excel文件中读取到的操作值是: 5000
+从Excel文件中读取到的关键字是: click_sendMailButton
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: sleep1
+从Excel文件中读取到的操作值是: 5000
+从Excel文件中读取到的关键字是: WaitFor_Element2
+从Excel文件中读取到的操作值是: sendmailsuccesspage.successinfo
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 发送成功
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+关闭浏览器
+--------------------   "SendMail01  "执行结束    ---------------
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+Firefox浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 二维码登录
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+关闭浏览器
+--------------------   "ToHomePage01  "执行结束    ---------------
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+Chrome浏览器实例已经声名
+--------------------   "SendMail01  "执行结束    ---------------
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+Firefox浏览器实例已经声名
+--------------------   "ToHomePage01  "执行结束    ---------------
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+Chrome浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+从Excel文件中读取到的关键字是: input_username
+从Excel文件中读取到的操作值是: test
+输入用户名： test
+从Excel文件中读取到的关键字是: input_password
+从Excel文件中读取到的操作值是: *******
+输入密码
+从Excel文件中读取到的关键字是: click_login
+从Excel文件中读取到的操作值是: 无
+单击登录按钮
+从Excel文件中读取到的关键字是: switch_to_default
+从Excel文件中读取到的操作值是: 
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: homepage.logoutlink
+从Excel文件中读取到的关键字是: click_writeLetterLink
+从Excel文件中读取到的操作值是: 无
+单击写信按钮
+从Excel文件中读取到的关键字是: WaitFor_Element1
+从Excel文件中读取到的操作值是: writemailpage.verifytitle
+从Excel文件中读取到的关键字是: input_recipients
+从Excel文件中读取到的操作值是: testman@126.com
+从Excel文件中读取到的关键字是: input_mailSubject
+从Excel文件中读取到的操作值是: 这是一封邮件的标题
+从Excel文件中读取到的关键字是: press_tab
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: paste_mailContent
+从Excel文件中读取到的操作值是: 这是邮件的正文
+从Excel文件中读取到的关键字是: click_addAttachment
+从Excel文件中读取到的操作值是: 无
+添加附件
+从Excel文件中读取到的关键字是: paste_uploadFileName
+从Excel文件中读取到的操作值是: D:\BugReport.txt
+从Excel文件中读取到的关键字是: press_enter
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: sleep
+从Excel文件中读取到的操作值是: 5000
+从Excel文件中读取到的关键字是: click_sendMailButton
+从Excel文件中读取到的操作值是: 无
+关闭浏览器
+--------------------   "SendMail01  "执行结束    ---------------
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+Firefox浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 二维码登录
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+关闭浏览器
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+Chrome浏览器实例已经声名
+--------------------   "SendMail01  "执行结束    ---------------
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+Firefox浏览器实例已经声名
+--------------------   "ToHomePage01  "执行结束    ---------------
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+Chrome浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+从Excel文件中读取到的关键字是: input_username
+从Excel文件中读取到的操作值是: test
+从Excel文件中读取到的关键字是: input_password
+从Excel文件中读取到的操作值是: *******
+从Excel文件中读取到的关键字是: click_login
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: switch_to_default
+从Excel文件中读取到的操作值是: 
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: homepage.logoutlink
+从Excel文件中读取到的关键字是: click_writeLetterLink
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: WaitFor_Element1
+从Excel文件中读取到的操作值是: writemailpage.verifytitle
+从Excel文件中读取到的关键字是: input_recipients
+从Excel文件中读取到的操作值是: testman@126.com
+从Excel文件中读取到的关键字是: input_mailSubject
+从Excel文件中读取到的操作值是: 这是一封邮件的标题
+从Excel文件中读取到的关键字是: press_tab
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: paste_mailContent
+从Excel文件中读取到的操作值是: 这是邮件的正文
+从Excel文件中读取到的关键字是: click_addAttachment
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: paste_uploadFileName
+从Excel文件中读取到的操作值是: D:\BugReport.txt
+从Excel文件中读取到的关键字是: press_enter
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: sleep
+从Excel文件中读取到的操作值是: 5000
+从Excel文件中读取到的关键字是: click_sendMailButton
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: sleep1
+从Excel文件中读取到的操作值是: 5000
+从Excel文件中读取到的关键字是: WaitFor_Element2
+从Excel文件中读取到的操作值是: sendmailsuccesspage.successinfo
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 发送成功
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 二维码登录
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+--------------------   "SendMail01  "执行结束    ---------------
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+--------------------   "ToHomePage01  "执行结束    ---------------
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+从Excel文件中读取到的关键字是: input_username
+从Excel文件中读取到的操作值是: test
+从Excel文件中读取到的关键字是: input
+从Excel文件中读取到的操作值是: *******
+从Excel文件中读取到的关键字是: click
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: switch_to_default
+从Excel文件中读取到的操作值是: 
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: homepage.logoutlink
+从Excel文件中读取到的关键字是: click_writeLetterLink
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: WaitFor_Element1
+从Excel文件中读取到的操作值是: writemailpage.verifytitle
+从Excel文件中读取到的关键字是: input_recipients
+从Excel文件中读取到的操作值是: testman@126.com
+从Excel文件中读取到的关键字是: input_mailSubject
+从Excel文件中读取到的操作值是: 这是一封邮件的标题
+从Excel文件中读取到的关键字是: press_tab
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: paste_mailContent
+从Excel文件中读取到的操作值是: 这是邮件的正文
+从Excel文件中读取到的关键字是: click_addAttachment
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: paste_uploadFileName
+从Excel文件中读取到的操作值是: D:\BugReport.txt
+从Excel文件中读取到的关键字是: press_enter
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: sleep
+从Excel文件中读取到的操作值是: 5000
+从Excel文件中读取到的关键字是: click_sendMailButton
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: sleep1
+从Excel文件中读取到的操作值是: 5000
+从Excel文件中读取到的关键字是: WaitFor_Element2
+从Excel文件中读取到的操作值是: sendmailsuccesspage.successinfo
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 发送成功
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 二维码登录
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+从Excel文件中读取到的关键字是: input_username
+从Excel文件中读取到的操作值是: test
+从Excel文件中读取到的关键字是: input
+从Excel文件中读取到的操作值是: *******
+从Excel文件中读取到的关键字是: click
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: switch_to_default
+从Excel文件中读取到的操作值是: 
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: homepage.logoutlink
+从Excel文件中读取到的关键字是: click
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: writemailpage.verifytitle
+从Excel文件中读取到的关键字是: input_recipients
+从Excel文件中读取到的操作值是: testman@126.com
+从Excel文件中读取到的关键字是: input
+从Excel文件中读取到的操作值是: 这是一封邮件的标题
+从Excel文件中读取到的关键字是: pasteString
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: paste_mailContent
+从Excel文件中读取到的操作值是: 这是邮件的正文
+从Excel文件中读取到的关键字是: click_addAttachment
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: paste_uploadFileName
+从Excel文件中读取到的操作值是: D:\BugReport.txt
+从Excel文件中读取到的关键字是: press_enter
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: sleep
+从Excel文件中读取到的操作值是: 5000
+从Excel文件中读取到的关键字是: click
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: sleep
+从Excel文件中读取到的操作值是: 5000
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: sendmailsuccesspage.successinfo
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 发送成功
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 二维码登录
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+Chrome浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+从Excel文件中读取到的关键字是: input_username
+从Excel文件中读取到的操作值是: test
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+Chrome浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+从Excel文件中读取到的关键字是: input_username
+从Excel文件中读取到的操作值是: test
+输入用户名： login.username
+从Excel文件中读取到的关键字是: input
+从Excel文件中读取到的操作值是: *******
+清除 login.password 输入框中的所有内容
+在login.password 输入框中输入: *******
+从Excel文件中读取到的关键字是: click
+从Excel文件中读取到的操作值是: 无
+单击按钮成功: login.button
+从Excel文件中读取到的关键字是: switch_to_default
+从Excel文件中读取到的操作值是: 
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: homepage.logoutlink
+显式等待元素失败: Expected condition failed: waiting for presence of element located by: By.xpath: /html//div[@class='tY0']/ul[1]/li[18]/a[@title=''] (tried for 10 second(s) with 500 milliseconds interval)
+关闭浏览器
+--------------------   "SendMail01  "执行结束    ---------------
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+Firefox浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 二维码登录
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+关闭浏览器
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+Chrome浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+从Excel文件中读取到的关键字是: input_username
+从Excel文件中读取到的操作值是: test
+输入用户名： login.username
+从Excel文件中读取到的关键字是: input
+从Excel文件中读取到的操作值是: *******
+清除 login.password 输入框中的所有内容
+在login.password 输入框中输入: *******
+从Excel文件中读取到的关键字是: click
+从Excel文件中读取到的操作值是: 无
+单击按钮成功: login.button
+从Excel文件中读取到的关键字是: switch_to_default
+从Excel文件中读取到的操作值是: 
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: homepage.logoutlink
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+Chrome浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+从Excel文件中读取到的关键字是: input_username
+从Excel文件中读取到的操作值是: test
+关闭浏览器
+--------------------   "SendMail01  "执行结束    ---------------
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+Firefox浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 二维码登录
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+关闭浏览器
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+Chrome浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+从Excel文件中读取到的关键字是: input_username
+从Excel文件中读取到的操作值是: test
+关闭浏览器
+--------------------   "SendMail01  "执行结束    ---------------
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+Firefox浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 二维码登录
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+关闭浏览器
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+Chrome浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+从Excel文件中读取到的关键字是: input_username
+从Excel文件中读取到的操作值是: test
+输入用户名： test
+从Excel文件中读取到的关键字是: input
+从Excel文件中读取到的操作值是: *******
+清除 login.password 输入框中的所有内容
+在login.password 输入框中输入: *******
+从Excel文件中读取到的关键字是: click
+从Excel文件中读取到的操作值是: 无
+单击按钮成功: login.button
+从Excel文件中读取到的关键字是: switch_to_default
+从Excel文件中读取到的操作值是: 
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: homepage.logoutlink
+显式等待页面出现的元素是： homepage.logoutlink
+从Excel文件中读取到的关键字是: click
+从Excel文件中读取到的操作值是: 无
+单击按钮成功: homepage.writeLetterLink
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: writemailpage.verifytitle
+显式等待页面出现的元素是： writemailpage.verifytitle
+从Excel文件中读取到的关键字是: input_recipients
+从Excel文件中读取到的操作值是: testman@126.com
+从Excel文件中读取到的关键字是: input
+从Excel文件中读取到的操作值是: 这是一封邮件的标题
+清除 writemailpage.mailsuject 输入框中的所有内容
+在writemailpage.mailsuject 输入框中输入: 这是一封邮件的标题
+从Excel文件中读取到的关键字是: pasteString
+从Excel文件中读取到的操作值是: 无
+成功粘贴文本: 无
+从Excel文件中读取到的关键字是: paste_mailContent
+从Excel文件中读取到的操作值是: 这是邮件的正文
+从Excel文件中读取到的关键字是: click_addAttachment
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: paste_uploadFileName
+从Excel文件中读取到的操作值是: D:\BugReport.txt
+从Excel文件中读取到的关键字是: press_enter
+从Excel文件中读取到的操作值是: 无
+按回车键成功
+从Excel文件中读取到的关键字是: sleep
+从Excel文件中读取到的操作值是: 5000
+关闭浏览器
+--------------------   "SendMail01  "执行结束    ---------------
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+Firefox浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 二维码登录
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+关闭浏览器
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+Chrome浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+从Excel文件中读取到的关键字是: input_username
+从Excel文件中读取到的操作值是: test
+输入用户名： test
+从Excel文件中读取到的关键字是: input
+从Excel文件中读取到的操作值是: *******
+清除 login.password 输入框中的所有内容
+在login.password 输入框中输入: *******
+从Excel文件中读取到的关键字是: click
+从Excel文件中读取到的操作值是: 无
+单击按钮成功: login.button
+从Excel文件中读取到的关键字是: switch_to_default
+从Excel文件中读取到的操作值是: 
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: homepage.logoutlink
+显式等待页面出现的元素是： homepage.logoutlink
+从Excel文件中读取到的关键字是: click
+从Excel文件中读取到的操作值是: 无
+单击按钮成功: homepage.writeLetterLink
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: writemailpage.verifytitle
+显式等待页面出现的元素是： writemailpage.verifytitle
+从Excel文件中读取到的关键字是: input_recipients
+从Excel文件中读取到的操作值是: testman@126.com
+从Excel文件中读取到的关键字是: input
+从Excel文件中读取到的操作值是: 这是一封邮件的标题
+清除 writemailpage.mailsuject 输入框中的所有内容
+在writemailpage.mailsuject 输入框中输入: 这是一封邮件的标题
+从Excel文件中读取到的关键字是: pasteString
+从Excel文件中读取到的操作值是: 无
+成功粘贴文本: 无
+从Excel文件中读取到的关键字是: paste_mailContent
+从Excel文件中读取到的操作值是: 这是邮件的正文
+从Excel文件中读取到的关键字是: click_addAttachment
+从Excel文件中读取到的操作值是: 无
+从Excel文件中读取到的关键字是: paste_uploadFileName
+从Excel文件中读取到的操作值是: D:\BugReport.txt
+从Excel文件中读取到的关键字是: press_enter
+从Excel文件中读取到的操作值是: 无
+按回车键成功
+从Excel文件中读取到的关键字是: sleep
+从Excel文件中读取到的操作值是: 5000
+从Excel文件中读取到的关键字是: click
+从Excel文件中读取到的操作值是: 无
+点击writemailpage.sendmailbutton页面元素失败, 异常信息: unknown error: Element <span class="nui-btn-text">...</span> is not clickable at point (88, 592). Other element would receive the click: <div style="background-color:#4273a5;height:100px;width:100%;">...</div>
+  (Session info: chrome=66.0.3359.117)
+  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'XSHD--20161124D', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.39.562718 (9a2698cba08cf5..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true}
+Session ID: 2201e51ab37e96040fbebd1fcdec9455
+关闭浏览器
+--------------------   "SendMail01  "执行结束    ---------------
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+Firefox浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 二维码登录
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+关闭浏览器
+--------------------   "SendMail01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: chrome
+Chrome浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: switch_to_frame
+从Excel文件中读取到的操作值是: x-URS-iframe
+从Excel文件中读取到的关键字是: input_username
+从Excel文件中读取到的操作值是: test
+输入用户名： test
+从Excel文件中读取到的关键字是: input
+从Excel文件中读取到的操作值是: *******
+清除 login.password 输入框中的所有内容
+在login.password 输入框中输入: *******
+从Excel文件中读取到的关键字是: click
+从Excel文件中读取到的操作值是: 无
+单击按钮成功: login.button
+从Excel文件中读取到的关键字是: switch_to_default
+从Excel文件中读取到的操作值是: 
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: homepage.logoutlink
+显式等待页面出现的元素是： homepage.logoutlink
+从Excel文件中读取到的关键字是: click
+从Excel文件中读取到的操作值是: 无
+单击按钮成功: homepage.writeLetterLink
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: writemailpage.verifytitle
+显式等待页面出现的元素是： writemailpage.verifytitle
+从Excel文件中读取到的关键字是: input_recipients
+从Excel文件中读取到的操作值是: testman@126.com
+从Excel文件中读取到的关键字是: input
+从Excel文件中读取到的操作值是: 这是一封邮件的标题
+清除 writemailpage.mailsuject 输入框中的所有内容
+在writemailpage.mailsuject 输入框中输入: 这是一封邮件的标题
+从Excel文件中读取到的关键字是: pasteString
+从Excel文件中读取到的操作值是: 无
+成功粘贴文本: 无
+从Excel文件中读取到的关键字是: paste_mailContent
+从Excel文件中读取到的操作值是: 这是邮件的正文
+从Excel文件中读取到的关键字是: click_addAttachment
+从Excel文件中读取到的操作值是: 无
+添加附件
+从Excel文件中读取到的关键字是: paste_uploadFileName
+从Excel文件中读取到的操作值是: D:\BugReport.txt
+从Excel文件中读取到的关键字是: press_enter
+从Excel文件中读取到的操作值是: 无
+按回车键成功
+从Excel文件中读取到的关键字是: sleep
+从Excel文件中读取到的操作值是: 5000
+从Excel文件中读取到的关键字是: click_addAttachment
+从Excel文件中读取到的操作值是: 无
+添加附件
+从Excel文件中读取到的关键字是: sleep
+从Excel文件中读取到的操作值是: 5000
+从Excel文件中读取到的关键字是: WaitFor_Element
+从Excel文件中读取到的操作值是: sendmailsuccesspage.successinfo
+显式等待页面出现的元素是： sendmailsuccesspage.successinfo
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 发送成功
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+关闭浏览器
+--------------------   "ToHomePage01  "开始执行    ---------------
+从Excel文件中读取到的关键字是: open_browser
+从Excel文件中读取到的操作值是: firefox
+Firefox浏览器实例已经声名
+从Excel文件中读取到的关键字是: navigate
+从Excel文件中读取到的操作值是: https://mail.126.com
+浏览器访问地址: https://mail.126.com
+从Excel文件中读取到的关键字是: Assert_String
+从Excel文件中读取到的操作值是: 二维码登录
+从Excel文件中读取到的关键字是: close_browser
+从Excel文件中读取到的操作值是: 无
+关闭浏览器
